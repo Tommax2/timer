@@ -82,7 +82,7 @@ function timer (){
     let mins = Math.floor((seconds - (hrs * 3600))/ 60)
     let secs = seconds % 60;
     
-    if (secs < 10) secs = '0' + seconds ;
+    if (secs < 10) secs = '0' + secs ;
     if (mins < 10) mins = "0" +  mins ;
     if ( hrs < 10) hrs = "0" + hrs;
   
